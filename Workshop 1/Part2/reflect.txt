@@ -1,0 +1,44 @@
+*************************************************
+Reflection for workshop 1 part 2
+Section: BTP200NBB 
+Name: Hoang Phan
+Seneca ID: 10166229
+Seneca email: pphan-thanh-hoang@myseneca.ca
+Date: 01/18/2023 winter 2023
+*************************************************
+
+For Lab, I had never used the matrix before, and I was confused by the commands; however, I figured out 
+almost the problem by myself. The instruction for the Lab is not really difficult to understand, but I got 
+one problem. The body code in cpp files must be in namespace sdds, I read the requirement in the instruction 
+many times, but I did not get it. Finally, I had an appointment, and he helped me figure it out. 
+ 
+For DIY, this is the first time that I approached a project which does not contain many directions in the 
+instruction. Initially, I was confused about what I had to do with all the requirements of the projects 
+because the correct_output.txt file was the only one that I could hinge on to finish the project. Then 
+I read the DIY instruction many times until I realized that I can modify, create functions or do whatever 
+I want. 
+
+I made a brief note for my workshop about the functions and added them in each file as comments
+to make sure that I would not miss any functions. However, my plan was still not perfect, because the 
+parameter of the function did not contain suitable variables, so I spent a long time fixing such 
+function parameters. After that, I still added some additional functions, but When I made a brief note for 
+each file, my work flowed quickly, Therefore, algorithms are the things left that I have to solve. 
+
+Firstly, it was the way C++ retrieves data from files is so different and more complicated from C. I spent
+many hours on GitHub to check my previous projects, but the previous methods did not make sense in this 
+workshop, because they pulled data into string variables, If I use that way, I have to use 2 more functions 
+in string library to convert it to char array. I finally find the "get" function on Geek For Geeks, and 
+It works, but the other problem is that except for the first name, the others always contain the space at the 
+first. I tried to find another function to eliminate that space but it doesn't work, so I added space to 
+the first of the first name. When I printed out the name, the names were only printed from the second character.
+
+Secondly, sorting was the last function that the project would be finished. I used quick sort, and it worked 
+for sorting GPA, but the names were not sorted, so I spent 2 days finding out the solution, then I realized 
+the normal sort method, bubble sort, works perfectly. It was a great experience for me and I will start 
+everything with the most basic solution first.                                                                                                                               
+
+Finally, when I submitted the workshop to the matrix, it doesn't work. I was so confused because the output of 
+my workshop was produced the same as the one professor provides. Then I found that I couldn't make any changes
+on the main cpp file. I added a function from UI to operate and link all the files. I moved that function 
+into GPAlist.cpp, then it worked. I finished the workshop.
+

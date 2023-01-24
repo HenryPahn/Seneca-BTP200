@@ -1,0 +1,36 @@
+*************************************************
+Reflection for workshop 1 part 2
+Section: BTP200NBB 
+Name: Hoang Phan
+Seneca ID: 10166229
+Seneca email: pphan-thanh-hoang@myseneca.ca
+Date: 01/18/2023 winter 2023
+*************************************************
+- For Lab, the only reason that I spent much time on was I had never used the matrix before. I was 
+confused by the commands; however, I figured out almost the problem by myself. Then I have an 
+appointment with the professor to help me with the rest. I missed some information in the class so I did not
+know that I should put everything in the namespace in the CPP files. 
+
+- For DIY, this is the first time that I approached a project which does not contain many directions in the 
+instruction. Initially, I was confused about what I had to do with all the requirements of the projects 
+because the correct_output.txt file was the only one that I could hinge on to finish the project. Then 
+I read the instruction for DIY many times till I realized that I can modify and create functions as I want. 
+
+- I made a brief note for my workshop about the functions and noted them down in each file as comments
+to make sure that I would not miss any functions. However, my plan was still not perfect, because the 
+parameter of the function did not contain a suitable variable, so I spent a long time fixing such 
+function parameters. 
+
+- In GPAlist.cpp, luckily I remember the eof function, so I moved fastly to the next part. Depending on
+the UI of the correct_output.txt file, I coded the same output as that file, so it didn't cost much time. 
+When I started doing File.cpp, I got stuck many times because many new functions were coming up that I 
+could not expect such as retrieving data and sorting students. Then I made a big change on my note that 
+I rewrite all the functions based on the old one. 
+
+- When I made a brief note for each file, my work was flowing so fast, but I was still stuck at 
+a stage where my sort function did not work as I expect. I got a conundrum to sort it correctly as the 
+output file. I used a quick sort method, which we can find on Geeks For Geeks. But if I use that method, 
+I can only sort the GPA, and the names are not sorted as alphabets. I spent 2 days finding out the solution, 
+then I realized the normal sort method, bubble sort, works. It was a great experience for me and I will 
+start everything with the most basic solution first. 
+

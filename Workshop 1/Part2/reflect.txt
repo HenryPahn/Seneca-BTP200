@@ -37,8 +37,13 @@ for sorting GPA, but the names were not sorted, so I spent 2 days finding out th
 the normal sort method, bubble sort, works perfectly. It was a great experience for me and I will start 
 everything with the most basic solution first.                                                                                                                               
 
-Finally, when I submitted the workshop to the matrix, it doesn't work. I was so confused because the output of 
+When I submitted the workshop to the matrix, it doesn't work. I was so confused because the output of 
 my workshop was produced the same as the one professor provides. Then I found that I couldn't make any changes
 on the main cpp file. I added a function from UI to operate and link all the files. I moved that function 
 into GPAlist.cpp, then it worked. I finished the workshop.
 
+However, when I read part 1 of workshop 1, I realized that my code was a mess, and I had to fix my code 
+immediately. It took me 5 days to fix all the code. It works perfectly now. I learned how to write my code 
+cleaner, and based on part 1, I rewrote the function to extract data from CSV file. I read many materials on 
+the Internet to comprehend the way to read data from files in C, but there are no qualified sites that I found. 
+I hope that the professor will help me to figure it out.

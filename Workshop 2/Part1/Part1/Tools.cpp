@@ -1,3 +1,18 @@
+/***********************************************************************
+// OOP244 Workshop 2 p1: Tools cpp file
+//
+// File:  Tools.cpp
+// Due date: Friday, 01/27/2023
+// I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+//
+// -----------------------------------------------------------
+// Name: Hoang Phan
+// Seneca ID: 10166229
+// Seneca email: pphan-thanh-hoang@myseneca.ca
+// Date: 01/26/2023 winter 2023
+/////////////////////////////////////////////////////////////////
+***********************************************************************/
+
 #define _CRT_SECURE_NO_WARNINGS
 #include <cstdio>
 #include "Tools.h"
@@ -19,24 +34,23 @@ namespace sdds {
         rewind(fp);
         return noOfTraces;
     }
-    
 
     // To Do: read functions (4 overloaded read functions)
-    //int readName(...............) {
-    //    return fscanf(fp, "%60[^\n]\n", ......) == 1;
-    //}
+    int read(char data[]) {
+        return fscanf(fp, "%60[^\n]\n", data) == 1;
+    }
 
-    //int readInt(...............) {
-    //    return fscanf(fp, "%d,".......) == 1;
-    //}
+    int read(int &data) {
+        return fscanf(fp, "%d,", &data) == 1;
+    }
 
-    //int readTime(..............) {
-    //    return fscanf(fp, "%lf,",......) == 1;
-    //}
+    int read(double &data) {
+        return fscanf(fp, "%lf,", &data) == 1;
+    }
 
-    //int readDay(..............) {
-    //    return fscanf(fp, "%[^ \t\n\r\v\f,]%*c",......) == 1;
-    //}
+    int read(char &data) {
+        return fscanf(fp, "%[^ \t\n\r\v\f,]%*c", &data) == 1;
+    }
 
     void closefile() { // Fully provided
         if (fp) fclose(fp);

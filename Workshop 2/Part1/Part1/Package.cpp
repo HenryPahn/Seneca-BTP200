@@ -1,3 +1,18 @@
+/***********************************************************************
+// OOP244 Workshop 2 p1: Package cpp file
+//
+// File:  Package.cpp
+// Due date: Friday, 01/27/2023
+// I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+//
+// -----------------------------------------------------------
+// Name: Hoang Phan
+// Seneca ID: 10166229
+// Seneca email: pphan-thanh-hoang@myseneca.ca
+// Date: 01/26/2023 winter 2023
+/////////////////////////////////////////////////////////////////
+***********************************************************************/
+
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <cstring>
@@ -16,28 +31,29 @@ namespace sdds {
         if (openFile_r(filename_r)) {
 
             // Add [1]: Set the noOfTraces to the number of records found in the file.
-            
+            no_of_traces = noOfTraces();
                                    
             // Add [2]: Dynamically allocate an array of Customers into the global Customers' pointer (users) with the size of no_of_traces.
-            
+            users = new Customers[no_of_traces];
 
             // Add [3]: Load the Customers' records from the file into the dynamically created array (use a loop).
-
-           
+            while (check && i < no_of_traces)
+            {
+                check = loadTraces(users[i]);
+                if (check) i++;
+            }
 
             // Add [4]: If the number of the records does not match the number of read ones, print an error message
-            if (...................) {
+            if (i != no_of_traces) {
                 cout << "Error reading the records, Check the data file "<< endl;
-                
             }
             else {
-             
             // Add [5]: set  check to true 
-                
+                check = true;
             }
 
             // Add [6]: close the file; call closefile() function
-
+            closefile();
         }
         else {
             cout << "Could not open the"<< filename_r <<" data file"<< endl;
@@ -45,12 +61,9 @@ namespace sdds {
         return check;
     }  
 
-
-
-
     // Add: Complete the implementation of the one argument [int loadTraces(Customers& user_info)] function that does the following:
-                                                  // (1). reads one student record from the file
-                                                  // (2). loads the record into the customers' reference
+    // (1). reads one student record from the file
+    // (2). loads the record into the customers' reference
    
     int loadTraces(Customers& user_info) {    // Do: complete the missing parts as guided (3 parts)
         bool check = false;
@@ -60,15 +73,13 @@ namespace sdds {
             && read(user_info.Fctime) && read(read_Package_name)) { // if reading of data
 
            // Add [1]: allocate memory to the size of the Package_name + 1, keep its address in the name of the customers reference (user_info.Package_Name)
-
-            
+            user_info.Package_Name = new char[strLen(read_Package_name) + 1];    
 
            // Add [2]:  copy the name into the newly allocated memory, use provided strCpy function
-            
-
+            strCpy(user_info.Package_Name, read_Package_name);
 
            // Add [3]: set  check to true if the previous process is successfully completed
-                        
+            check = true;
         }
         return check; 
     }
@@ -88,16 +99,28 @@ namespace sdds {
         }
     } 
 
-
     // ADD [1]: implement the display function based on the following condition: (timeinhours > 1.0 and dayofweek == 'F') 
-
-
-         
+    void display()
+    {
+        for (int i = 0; i < no_of_traces; i++)
+        {
+            if (users[i].timeinhours > 1.0 && users[i].dayofweek == 'F')
+            {
+                cout << users[i].user_id << "," << users[i].timeinhours << "," << users[i].Fctime << "," << users[i].Fwifitime << "," << users[i].Package_Name << endl;
+            }
+        }
+        cout << "....................................................." << endl;
+    }
     
     // ADD [2]: implement the deallocateMemory function  
-
-        
-
+    void deallocateMemory()
+    {
+        for (int i = 0; i < no_of_traces; i++)
+        {
+            delete[] users[i].Package_Name;
+        }
+        delete[] users;
+    }
 }
 
 

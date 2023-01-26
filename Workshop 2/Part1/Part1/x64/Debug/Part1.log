@@ -1,28 +1,4 @@
-﻿  main.cpp
-D:\Code\C++\Seneca\Seneca-BTP200\Workshop 2\Part1\Part1\main.cpp(38,5): error C3861: 'display': identifier not found
-D:\Code\C++\Seneca\Seneca-BTP200\Workshop 2\Part1\Part1\main.cpp(41,5): error C3861: 'deallocateMemory': identifier not found
-  Package.cpp
-D:\Code\C++\Seneca\Seneca-BTP200\Workshop 2\Part1\Part1\Package.cpp(29,17): error C2059: syntax error: '...'
-D:\Code\C++\Seneca\Seneca-BTP200\Workshop 2\Part1\Part1\Package.cpp(29,38): error C2143: syntax error: missing ';' before '{'
-D:\Code\C++\Seneca\Seneca-BTP200\Workshop 2\Part1\Part1\Package.cpp(33,13): error C2181: illegal else without matching if
-D:\Code\C++\Seneca\Seneca-BTP200\Workshop 2\Part1\Part1\Package.cpp(59,13): error C3861: 'read': identifier not found
-D:\Code\C++\Seneca\Seneca-BTP200\Workshop 2\Part1\Part1\Package.cpp(59,41): error C3861: 'read': identifier not found
-D:\Code\C++\Seneca\Seneca-BTP200\Workshop 2\Part1\Part1\Package.cpp(59,68): error C3861: 'read': identifier not found
-D:\Code\C++\Seneca\Seneca-BTP200\Workshop 2\Part1\Part1\Package.cpp(59,99): error C3861: 'read': identifier not found
-D:\Code\C++\Seneca\Seneca-BTP200\Workshop 2\Part1\Part1\Package.cpp(59,128): error C3861: 'read': identifier not found
-D:\Code\C++\Seneca\Seneca-BTP200\Workshop 2\Part1\Part1\Package.cpp(60,16): error C3861: 'read': identifier not found
-D:\Code\C++\Seneca\Seneca-BTP200\Workshop 2\Part1\Part1\Package.cpp(60,42): error C3861: 'read': identifier not found
+﻿  Package.cpp
   Tools.cpp
-D:\Code\C++\Seneca\Seneca-BTP200\Workshop 2\Part1\Part1\Tools.cpp(25,14): error C2059: syntax error: '...'
-D:\Code\C++\Seneca\Seneca-BTP200\Workshop 2\Part1\Part1\Tools.cpp(25,31): error C2143: syntax error: missing ';' before '{'
-D:\Code\C++\Seneca\Seneca-BTP200\Workshop 2\Part1\Part1\Tools.cpp(25,31): error C2447: '{': missing function header (old-style formal list?)
-D:\Code\C++\Seneca\Seneca-BTP200\Workshop 2\Part1\Part1\Tools.cpp(29,17): error C2059: syntax error: '...'
-D:\Code\C++\Seneca\Seneca-BTP200\Workshop 2\Part1\Part1\Tools.cpp(29,34): error C2143: syntax error: missing ';' before '{'
-D:\Code\C++\Seneca\Seneca-BTP200\Workshop 2\Part1\Part1\Tools.cpp(29,34): error C2447: '{': missing function header (old-style formal list?)
-D:\Code\C++\Seneca\Seneca-BTP200\Workshop 2\Part1\Part1\Tools.cpp(33,18): error C2059: syntax error: '...'
-D:\Code\C++\Seneca\Seneca-BTP200\Workshop 2\Part1\Part1\Tools.cpp(33,34): error C2143: syntax error: missing ';' before '{'
-D:\Code\C++\Seneca\Seneca-BTP200\Workshop 2\Part1\Part1\Tools.cpp(33,34): error C2447: '{': missing function header (old-style formal list?)
-D:\Code\C++\Seneca\Seneca-BTP200\Workshop 2\Part1\Part1\Tools.cpp(37,18): error C2059: syntax error: '...'
-D:\Code\C++\Seneca\Seneca-BTP200\Workshop 2\Part1\Part1\Tools.cpp(37,34): error C2143: syntax error: missing ';' before '{'
-D:\Code\C++\Seneca\Seneca-BTP200\Workshop 2\Part1\Part1\Tools.cpp(37,34): error C2447: '{': missing function header (old-style formal list?)
   Generating Code...
+  Part1.vcxproj -> D:\Code\C++\Seneca\Seneca-BTP200\Workshop 2\Part1\x64\Debug\Part1.exe

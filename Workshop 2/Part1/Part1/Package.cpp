@@ -9,7 +9,7 @@
 // Name: Hoang Phan
 // Seneca ID: 10166229
 // Seneca email: pphan-thanh-hoang@myseneca.ca
-// Date: 01/26/2023 winter 2023
+// Date: 01/27/2023 winter 2023
 /////////////////////////////////////////////////////////////////
 ***********************************************************************/
 
@@ -109,7 +109,6 @@ namespace sdds {
                 cout << users[i].user_id << "," << users[i].timeinhours << "," << users[i].Fctime << "," << users[i].Fwifitime << "," << users[i].Package_Name << endl;
             }
         }
-        cout << "....................................................." << endl;
     }
     
     // ADD [2]: implement the deallocateMemory function  

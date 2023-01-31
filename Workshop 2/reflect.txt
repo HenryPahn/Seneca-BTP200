@@ -1,0 +1,30 @@
+/***********************************************************************
+// OOP244 Workshop 2 p2: reflection
+//
+// File:  reflect.txt
+// Due date: Friday, 01/27/2023
+//
+// -----------------------------------------------------------
+// Name: Hoang Phan
+// Seneca ID: 10166229
+// Seneca email: pphan-thanh-hoang@myseneca.ca
+// Date: 01/27/2023 winter 2023
+/////////////////////////////////////////////////////////////////
+***********************************************************************/
+
+In workshop 2 part 1, it is not really difficult, because I read the code in w1p1, and the way 
+this code is implemented the same as that one. 
+
+In workshop 2 part 2, it is not hard for me to finish all the functions, except for the read 
+function. I stuck by the requirement that pressing enter to exit the program. I asked the professor
+for help, and he went through many functions such as getline, cin.get, etc. Finally, I realized 
+there is an overload of read functions that get the data from the user's input. After I implemented
+that one, it works perfectly.
+
+When I hand w2p2 in the matrix, I got the memory leak. This is because in addCustomer function. 
+I followed the method that the professor provided. I did it correctly, but in the end, I deleted 
+the address of the new array, which led to the memory leak. 
+
+In conclusion, this workshop 2 is not really difficult. The way the professor explained the read 
+functions in w2p1 are more complicated, so I still use the one method in w1p1 to extract data
+from files. It will be my experience about the resize dynamic array method.

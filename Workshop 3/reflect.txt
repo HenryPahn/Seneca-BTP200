@@ -1,0 +1,25 @@
+/***********************************************************************
+// OOP244 Workshop 3: reflection 
+//
+// File:  reflect.cpp
+// Due date: Friday, 02/08/2023
+// I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+//
+// -----------------------------------------------------------
+// Name: Hoang Phan
+// Seneca ID: 10166229
+// Seneca email: pphan-thanh-hoang@myseneca.ca
+// Date: 02/08/2023 winter 2023
+/////////////////////////////////////////////////////////////////
+***********************************************************************/
+
+In the lab, I finished all functions smoothly, but when I handed it into the matrix, the terminal displayed that I missed delete[] a pointer in
+addProject function. But when I check it, it is correct. The way I did it was different from the instruction, I create a pointer, allocate 
+suitable memory, copy the old value to the new one, assign a new value to the new one, wipe the old array, and assign the address of the new
+one to the old one. But it is a fault in that solution, so I followed the way the professor provided. I was so confused about the reason.
+ 
+In DIY, I only got stuck at the find function belonging to the store cpp file, because it requires to access a private data member in the 
+toys class, but there is not any function supporting that aim, and I thought I could not create an additional function. After asking the 
+professor, I add a function in the toys class to check the SKU of each toy.
+
+In conclusion, I will try to figure out why I got that problem in the lab when I have time. 

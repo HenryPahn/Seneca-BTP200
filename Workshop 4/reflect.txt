@@ -1,0 +1,22 @@
+/***********************************************************************
+// OOP244 Workshop 4 p2: reflection
+//
+// File:  reflect.txt
+// Due date: Friday, 02/15/2023
+// I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+//
+// -----------------------------------------------------------
+// Name: Hoang Phan
+// Seneca ID: 10166229
+// Seneca email: pphan-thanh-hoang@myseneca.ca
+// Date: 02/13/2023 winter 2023
+/////////////////////////////////////////////////////////////////
+***********************************************************************/
+
+In the lab, I was stuck at the match function, because the way the professor gave the instruction is ambiguous. After that, he provided that 
+functions, so I finished the lab.
+
+In the DIY, I got a memory leak again, such an annoying problem. Then I asked the professor about that error, he told me to deallocate the 
+pointer every time I want to add or delete a name, I have to deallocate first because, within the constructors, the memory is automatically 
+allocated, so deallocation before implementing something will prevent the memory leak. 
+

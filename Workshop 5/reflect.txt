@@ -1,0 +1,19 @@
+/***********************************************************************
+// OOP244 Workshop 5 p2: reflect file
+//
+// File:  reflect.txt
+// Due date: Friday, 02/22/2023
+// I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+//
+// -----------------------------------------------------------
+// Name: Hoang Phan
+// Seneca ID: 10166229
+// Seneca email: pphan-thanh-hoang@myseneca.ca
+// Date: 02/18/2023 winter 2023
+/////////////////////////////////////////////////////////////////
+***********************************************************************/
+
+In lab, I was initially freaking out because the lab is very long, and I didn't understand the instruction. After that, I solved each part by part. 
+I figured out that all the knowledge had been taught in the class. I had to read the material to solve the lab. 
+
+In DIY, I think it is another version of lab, they are literally the same, so it only took me one and a half our to finish. 

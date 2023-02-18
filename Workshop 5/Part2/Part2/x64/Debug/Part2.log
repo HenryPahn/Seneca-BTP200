@@ -1,0 +1,5 @@
+﻿  Bus.cpp
+D:\Code\C++\Seneca\Seneca-BTP200\Workshop 5\Part2\Part2\Bus.cpp(74,21): warning C4244: 'initializing': conversion from 'std::streamsize' to 'int', possible loss of data
+  main.cpp
+  Generating Code...
+  Part2.vcxproj -> D:\Code\C++\Seneca\Seneca-BTP200\Workshop 5\Part2\x64\Debug\Part2.exe

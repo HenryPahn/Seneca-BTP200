@@ -1,0 +1,4 @@
+﻿  Numbers.cpp
+D:\Code\C++\Seneca\Seneca-BTP200\Workshop 6\Part1\Part1\Numbers.cpp(169,30): warning C4244: 'initializing': conversion from 'std::streamsize' to 'int', possible loss of data
+D:\Code\C++\Seneca\Seneca-BTP200\Workshop 6\Part1\Part1\Numbers.cpp(264,30): warning C4244: 'initializing': conversion from 'std::streamsize' to 'int', possible loss of data
+  Part1.vcxproj -> D:\Code\C++\Seneca\Seneca-BTP200\Workshop 6\Part1\x64\Debug\Part1.exe
